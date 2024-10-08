@@ -1,0 +1,49 @@
+/* PaymentOverview.css */
+
+/* Styling for payment method options */
+.payment-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .payment-option img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 8px;
+  }
+  
+  .payment-option label {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Dialog styling */
+  .payment-dialog {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Button styling for proceed with payment */
+  .payment-dialog-actions {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .payment-dialog-actions button {
+    background-color: #FBDC3C;
+    color: #252E3D;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+  
+  .payment-dialog-actions button:disabled {
+    background-color: #e0e0e0;
+    color: #9e9e9e;
+  }
